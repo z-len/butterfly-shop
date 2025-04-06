@@ -1,0 +1,26 @@
+.social-icons {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.social-icons__link {
+  display: block;
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-icons__link--inst {
+  background-image: url(../images/icon-inst.svg);
+}
+
+.social-icons__link--face {
+  background-image: url(../images/icon-face.svg);
+}
+
+.social-icons__link--teleg {
+  background-image: url(../images/icon-teleg.svg);
+}

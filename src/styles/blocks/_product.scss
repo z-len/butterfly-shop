@@ -1,0 +1,27 @@
+.product {
+  padding-top: 130px;
+  padding-bottom: 161px;
+  text-align: center;
+}
+
+.product__inner {
+  @include inner;
+}
+
+.product__title {
+  margin: 130px 0 100px;;
+  font-family: $font400;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.product__cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 120px;
+}
+
+.product__card {
+  width: calc(25% - 3 / 4 * 20px);
+  // border: 1px solid;
+}

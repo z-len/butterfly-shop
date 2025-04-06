@@ -1,0 +1,28 @@
+.menu {
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: $color-white;
+  }
+}
+
+.menu__link {
+  padding: 33px 25px;
+  font-family: $font700;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu__link--orange {
+  background-color: $color-orange;
+}
