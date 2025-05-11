@@ -1,11 +1,14 @@
 .btn {
 display: inline-block;
 padding: 30px 36px 31px 48px;
-font-family: $font400;
+font-family: $font;
+font-weight: 400;
 font-size: 42px;
 line-height: 100%;
 text-align: center;
 text-decoration: none;
-background-color: $color-orange;
+background-color: $color-red;
 color: $color-white;
+border: none;
+border-radius: 6px;
 }

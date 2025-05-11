@@ -1,7 +1,7 @@
 .product {
-  padding-top: 130px;
   padding-bottom: 161px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.3) //в учебных целях
 }
 
 .product__inner {
@@ -9,19 +9,30 @@
 }
 
 .product__title {
-  margin: 130px 0 100px;;
-  font-family: $font400;
+  margin: 130px 0 97px;
+  font-weight: 400;
   font-size: 64px;
   line-height: 87px;
 }
 
-.product__cards {
+.product__list {
   display: flex;
   gap: 20px;
   margin-bottom: 120px;
 }
 
-.product__card {
+.product__item {
   width: calc(25% - 3 / 4 * 20px);
   // border: 1px solid;
+}
+
+.product-link {
+  text-decoration: none;
+}
+.product-link__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33PX;
+  text-align: center;
+  color: $color-white;
 }
