@@ -3,3 +3,10 @@
   border: 1px solid red;
   margin: 0 auto;
 }
+
+@mixin font-title() {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  color: $color-dark;
+}

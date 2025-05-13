@@ -1,0 +1,36 @@
+.faq {
+    padding: 130px 0;
+}
+
+.faq__inner {
+    @include inner;
+}
+
+.faq__title {
+    margin-bottom: 77px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: $color-dark;
+
+}
+.faq__questions {
+    width: 987px;
+    margin-bottom: 65px;
+font-weight: 300;
+font-size: 36px;
+line-height: 49px;
+color: rgba(21, 43, 60, 1);
+list-style: none;
+}
+
+.faq__answers {
+
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+color: $color-black;
+margin-top: 25px;
+}
+
