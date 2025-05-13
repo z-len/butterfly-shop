@@ -1,4 +1,9 @@
 .menu {
+
+   @media(max-width: $mobile-max) {
+    display:none;
+  }
+
   ul {
     display: flex;
     gap: 10px;
@@ -28,6 +33,17 @@
     }
   }
 
-}
+}   
 
-// .menu__link {}
+.burger {
+  display: none;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+
+  
+   @media(max-width: $mobile-max) {
+    display: inline-block;
+    
+  }
+}

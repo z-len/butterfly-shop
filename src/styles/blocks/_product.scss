@@ -1,7 +1,15 @@
 .product {
   padding: 130px 0 130px;
   text-align: center;
-  // background-color: rgba(0, 0, 0, 0.3) //в учебных целях
+
+  @media(max-width: $tablet-max) {
+    padding: 120px 0 120px;
+  }
+
+   @media(max-width: $mobile-max) {
+     padding: 90px 0 90px;
+  }
+ 
 }
 
 .product__inner {
@@ -9,10 +17,23 @@
 }
 
 .product__title {
-  margin: 0 0 97px;
+  margin: 0 0 100px;
   font-weight: 400;
   font-size: 64px;
   line-height: 87px;
+
+   @media(max-width: $tablet-max) {
+    margin: 0 0 80px;
+    font-size: 60px;
+  line-height: 82px;
+  }
+
+   @media(max-width: $mobile-max) {
+     margin: 0 0 60px;
+    font-size: 32px;
+  line-height: 44px;
+  }
+ 
 }
 
 .product__title--catalog {
@@ -29,8 +50,15 @@
 .product__item {
   width: calc(25% - 3 / 4 * 20px);
   // border: 1px solid;
-}
 
+  @media(max-width: $tablet-max) {
+     width: calc(50% - 10px);
+  }
+
+   @media(max-width: $mobile-max) {
+    width: 100%;
+  }
+}
 .product-link {
   text-decoration: none;
 }
