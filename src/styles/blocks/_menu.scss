@@ -1,12 +1,21 @@
 .menu {
 
-   @media(max-width: $mobile-max) {
-    display:none;
+  @media(max-width: $mobile-max) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: $color-dark;
   }
 
   ul {
     display: flex;
     gap: 10px;
+
+    @media(max-width: $mobile-max) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   li {
@@ -29,11 +38,11 @@
     }
 
     &:hover {
-       background-color: $color-red;
+      background-color: $color-red;
     }
   }
 
-}   
+}
 
 .burger {
   display: none;
@@ -41,9 +50,9 @@
   width: 30px;
   height: 30px;
 
-  
-   @media(max-width: $mobile-max) {
+
+  @media(max-width: $mobile-max) {
     display: inline-block;
-    
+
   }
 }

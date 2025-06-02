@@ -5,7 +5,11 @@
 }
 
 body {
+  padding-top: 90px;
   font-family: $font;
+  @media(min-width: $mobile-max) {
+    padding-top: 70px;
+  }
 }
 
 img {
