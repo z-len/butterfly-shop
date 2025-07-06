@@ -8,6 +8,10 @@
     background-color: $color-dark;
   }
 
+  &.open {
+    display: block;
+  }
+
   ul {
     display: flex;
     gap: 10px;
